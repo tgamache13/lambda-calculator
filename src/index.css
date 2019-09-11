@@ -4,13 +4,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.container {
+  height: 800px;
+}
 button {
   
     width: 100px;
@@ -59,4 +62,8 @@ button {
 }
 .special_button, .operator_button {
   background: cornflowerblue;
+}
+.number_button:nth-Child(10){
+  width: 200px;
+  margin-right: 10px;
 }
