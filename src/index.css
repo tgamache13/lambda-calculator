@@ -10,3 +10,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+button {
+  
+    width: 100px;
+    height: 100px;
+    background: royalblue;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    box-shadow:black  2px 2px;
+}
+
+.number_button_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  justify-content: space-around;
+  position: relative;
+  bottom: 550px;
+}
+.button_container {
+  width: 400px;
+  position: relative;
+  left: 45px;
+}
+.operator_button_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: -90%;
+  top: -200%;
+  width: 350px;
+  bottom: 110px;
+  
+}
+.special_button_container{
+  width: 350px;
+  position: relative;
+  left: 5px;
+}
+.display {
+  margin-bottom: 5%;
+  margin-left: 30px;
+}
+.special_button, .operator_button, .number_button  {
+  margin: 5px;
+}
+.special_button, .operator_button {
+  background: cornflowerblue;
+}
